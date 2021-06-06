@@ -582,6 +582,12 @@ footer p:last-child {
     text-decoration: none;
   }
 
+  .nav-link:hover,
+  .nav-link:active {
+    color: rgb(78, 236, 57);
+    text-decoration: none;
+  }
+
   .header {
     flex-direction: row;
     padding: 1rem 2rem;
