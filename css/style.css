@@ -60,7 +60,7 @@ a {
 }
 
 .nav-list li {
-  /* padding: 0 1rem; */
+  padding: 0 1rem;
   color: white;
   border-right: 1px solid white;
 }
@@ -604,7 +604,7 @@ footer p:last-child {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 45vh;
+    height: auto;
     position: fixed;
     top: 9rem;
     left: 0;
