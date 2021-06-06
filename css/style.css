@@ -94,10 +94,6 @@ a {
   display: none;
 }
 
-.fa-bars:hover {
-  color: rgb(78, 236, 57);
-}
-
 .fa-bars-active {
   color: rgb(78, 236, 57);
 }
@@ -166,16 +162,16 @@ a {
 }
 
 .banner-container h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .banner-container p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .fa-map-marker {
   color: rgb(12, 94, 55);
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .box-one {
@@ -186,15 +182,16 @@ a {
   position: relative;
 }
 
-.box-two span {
-  position: absolute;
-  left: -1rem;
-  top: 1.5rem;
-}
 .box-one span {
   position: absolute;
-  left: -1rem;
-  top: 1.5rem;
+  left: -1.5rem;
+  top: 2rem;
+}
+
+.box-two span {
+  position: absolute;
+  left: -1.5rem;
+  top: 2rem;
 }
 
 /* ----------- */
@@ -576,17 +573,6 @@ footer p:last-child {
 /* ----------- */
 
 @media screen and (max-width: 767px) {
-  .nav-link:link,
-  .nav-link:visited {
-    color: white;
-    text-decoration: none;
-  }
-
-  .nav-link:hover {
-    color: rgb(78, 236, 57);
-    text-decoration: none;
-  }
-
   .header {
     flex-direction: row;
     padding: 1rem 2rem;
