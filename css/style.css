@@ -43,10 +43,6 @@ a {
   z-index: 100;
 }
 
-/* .header-black {
-  background-color: black;
-} */
-
 .onscroll {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -64,7 +60,7 @@ a {
 }
 
 .nav-list li {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   color: white;
   border-right: 1px solid white;
 }
@@ -97,11 +93,6 @@ a {
 .fa-bars-active {
   color: rgb(78, 236, 57);
 }
-
-/* .fa-twitter-square:hover,
-.fa-facebook-f:hover {
-  color: rgb(12, 94, 55);
-} */
 
 /* ----------- */
 /* SECTION COVER */
@@ -320,6 +311,10 @@ select {
   margin-top: 3rem;
 }
 
+.row {
+  margin-left: 0;
+}
+
 .car-img {
   border: 1px solid white;
 }
@@ -331,9 +326,6 @@ select {
 
 .carousel-indicators {
   margin-bottom: -5rem;
-}
-
-.gallery {
 }
 
 .carousel-control {
@@ -554,11 +546,6 @@ footer p:last-child {
   text-align: center;
   text-decoration: underline;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 0;
-}
 
 .justify-space-around {
   justify-content: center;
@@ -571,6 +558,12 @@ footer p:last-child {
 /* ----------- */
 /* MEDIA QUERIES */
 /* ----------- */
+
+@media screen and (max-width: 1200px) {
+  .nav-box {
+    font-size: 2rem;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .header {
@@ -602,7 +595,7 @@ footer p:last-child {
     display: block;
   }
   .menu li a:hover {
-    background-color: rgb(12, 94, 55);
+    background-color: rgb(78, 236, 57);
     color: black;
   }
 
@@ -611,19 +604,21 @@ footer p:last-child {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 100vh;
+    height: 45vh;
     position: fixed;
     top: 9rem;
     left: 0;
-    z-index: 200;
     background-color: rgba(0, 0, 0, 0.8);
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 1rem;
   }
 
   .nav-list-mob li {
     padding-bottom: 1rem;
+  }
+  .nav-list-mob li a {
+    padding-left: 3rem;
   }
 
   .no-bor {
@@ -660,6 +655,18 @@ footer p:last-child {
 
   .box-one {
     margin-right: 5rem;
+  }
+
+  .box-one span {
+    position: absolute;
+    left: -1.5rem;
+    top: 1.5rem;
+  }
+
+  .box-two span {
+    position: absolute;
+    left: -1.5rem;
+    top: 1.5rem;
   }
 
   /* Section About */
