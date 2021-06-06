@@ -576,6 +576,12 @@ footer p:last-child {
 /* ----------- */
 
 @media screen and (max-width: 767px) {
+  .nav-link:link,
+  .nav-link:visited {
+    color: white;
+    text-decoration: none;
+  }
+
   .header {
     flex-direction: row;
     padding: 1rem 2rem;
