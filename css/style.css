@@ -43,9 +43,9 @@ a {
   z-index: 100;
 }
 
-.header-black {
+/* .header-black {
   background-color: black;
-}
+} */
 
 .onscroll {
   background-color: rgba(0, 0, 0, 0.8);
@@ -73,14 +73,14 @@ a {
   border: none;
 }
 
-.nav-list li a:link,
-.nav-list li a:visited {
+.nav-link:link,
+.nav-link:visited {
   color: white;
   text-decoration: none;
 }
 
-.nav-list li a:hover,
-.nav-list li a:active {
+.nav-link:hover,
+.nav-link:active {
   color: rgb(78, 236, 57);
   text-decoration: none;
 }
@@ -90,7 +90,16 @@ a {
 }
 
 .fa-bars {
+  color: white;
   display: none;
+}
+
+.fa-bars:hover {
+  color: rgb(78, 236, 57);
+}
+
+.fa-bars-active {
+  color: rgb(78, 236, 57);
 }
 
 /* .fa-twitter-square:hover,
@@ -571,6 +580,7 @@ footer p:last-child {
     flex-direction: row;
     padding: 1rem 2rem;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .nav-list {
