@@ -7,14 +7,10 @@
   max-width: 100%;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: 'Roboto Slab', serif;
   line-height: 1.5;
-  font-size: 1.6rem;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
@@ -31,7 +27,7 @@ a {
 /* ----------- */
 
 .header {
-  padding: 1rem 0;
+  padding: 10px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -51,7 +47,7 @@ a {
   display: flex;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 20px;
   letter-spacing: 2px;
 }
 
@@ -59,11 +55,11 @@ a {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 10px;
 }
 
 .nav-list li {
-  padding: 0 1rem;
+  padding: 0 10px;
   color: white;
   border-right: 1px solid white;
 }
@@ -85,7 +81,7 @@ a {
 }
 
 .fa-facebook-f {
-  padding-right: 1rem;
+  padding-right: 10px;
 }
 
 .fa-bars {
@@ -119,14 +115,14 @@ a {
 }
 
 .main-heading {
-  font-size: 5rem;
-  margin-bottom: 2rem;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .secondary-heading {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 3rem;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .btn-reserve:link,
@@ -134,7 +130,7 @@ a {
   font-family: 'Roboto', sans-serif;
   color: white;
   border: 1px solid white;
-  padding: 1rem;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -149,26 +145,26 @@ a {
 
 .banner-container {
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 20px 30px;
   display: flex;
   justify-content: center;
 }
 
 .banner-container h1 {
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 .banner-container p {
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 .fa-map-marker {
   color: rgb(12, 94, 55);
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 .box-one {
-  margin-right: 15rem;
+  margin-right: 150px;
   position: relative;
 }
 .box-two {
@@ -177,14 +173,14 @@ a {
 
 .box-one span {
   position: absolute;
-  left: -1.5rem;
-  top: 2rem;
+  left: -15px;
+  top: 20px;
 }
 
 .box-two span {
   position: absolute;
-  left: -1.5rem;
-  top: 2rem;
+  left: -15px;
+  top: 20px;
 }
 
 /* ----------- */
@@ -223,17 +219,17 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem 0;
+  margin: 30px 0;
 }
 
 .heading-about {
-  font-size: 5rem;
+  font-size: 50px;
 }
 
 .para-about {
-  padding: 0 4rem;
+  padding: 0 40px;
   font-size: 1.5rem;
-  margin: 3rem 0;
+  margin: 30px 0;
 }
 
 .btn-about:link,
@@ -241,7 +237,7 @@ a {
   font-family: 'Roboto', sans-serif;
   color: white;
   border: 1px solid white;
-  padding: 1rem;
+  padding: 10px;
   text-decoration: none;
 }
 .btn-about:hover {
@@ -262,7 +258,7 @@ a {
 .reservations h1,
 h2,
 p {
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 
 input,
@@ -272,7 +268,7 @@ select {
   border: none;
   border-bottom: 1px solid black;
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 
 .btn-submit:link,
@@ -280,11 +276,11 @@ select {
   font-family: 'Roboto', sans-serif;
   color: black;
   border: 1px solid black;
-  padding: 1rem;
+  padding: 10px;
   width: 100%;
   display: block;
   text-decoration: none;
-  margin-top: 2rem;
+  margin-top: 20px;
   position: relative;
 }
 
@@ -312,8 +308,8 @@ select {
   background-size: cover;
   text-align: center;
   color: white;
-  padding: 1rem 5rem 5rem;
-  margin-top: 3rem;
+  padding: 10px 50px 50px;
+  margin-top: 30px;
 }
 
 .row {
@@ -330,12 +326,12 @@ select {
 }
 
 .carousel-indicators {
-  margin-bottom: -5rem;
+  margin-bottom: -50px;
 }
 
 .carousel-control {
   width: 0;
-  left: -3rem;
+  left: -30px;
 }
 .carousel-control.left,
 .carousel-control.right {
@@ -471,56 +467,56 @@ select {
 
 .section-location {
   color: black;
-  margin: 1.5rem 0;
+  margin: 15px 0;
   display: flex;
   justify-content: center;
 }
 
 .section-location h1 {
-  font-size: 2rem;
+  font-size: 20px;
   margin-bottom: 0;
 }
 .section-location h2 {
-  font-size: 1.5rem;
+  font-size: 15px;
   margin-bottom: 0;
 }
 .section-location p {
-  font-size: 1.5rem;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
 .location,
 .hours {
-  margin-right: 5rem;
+  margin-right: 50px;
   position: relative;
 }
 
 .location span:first-of-type {
   position: absolute;
-  left: -1.5rem;
-  top: 6rem;
+  left: -15px;
+  top: 60px;
 }
 .location span:last-of-type {
   position: absolute;
-  left: -1.5rem;
-  top: 14rem;
+  left: -15px;
+  top: 140px;
 }
 
 .find-us div {
-  margin: 2rem 0;
+  margin: 20px 0;
   position: relative;
 }
 
 .find-us .fa-facebook-f {
   color: black;
-  font-size: 2rem;
+  font-size: 20px;
   position: absolute;
-  top: 1rem;
+  top: 10px;
 }
 
 .find-us .fa-twitter-square {
-  font-size: 4rem;
-  padding-right: 2rem;
+  font-size: 40px;
+  padding-right: 20px;
   color: black;
 }
 
@@ -542,7 +538,7 @@ select {
 
 footer {
   background-color: black;
-  padding: 3rem 0;
+  padding: 30px 0;
 }
 
 footer p {
@@ -550,20 +546,20 @@ footer p {
 }
 
 footer img {
-  width: 11rem;
-  height: 2rem;
+  width: 11opx;
+  height: 20px;
   padding-top: 1px;
   line-height: 0;
 }
 
 footer p:first-child {
-  font-size: 1.4rem;
+  font-size: 14px;
   text-align: center;
   margin-bottom: 10px;
 }
 
 footer p:last-child {
-  font-size: 1.2rem;
+  font-size: 12px;
   text-align: center;
   text-decoration: underline;
 }
@@ -574,14 +570,14 @@ footer p:last-child {
 
 @media screen and (max-width: 1200px) {
   .nav-box {
-    font-size: 1.8rem;
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
     flex-direction: row;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -597,12 +593,12 @@ footer p:last-child {
     width: 100%;
     height: auto;
     position: fixed;
-    top: 9rem;
+    top: 90px;
     left: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    padding-top: 1rem;
+    font-size: 20px;
+    padding-top: 10px;
     transition: all 0.5s ease-in;
   }
 
@@ -611,12 +607,12 @@ footer p:last-child {
   }
 
   .menu li {
-    padding-bottom: 1rem;
+    padding-bottom: 10px;
   }
 
   .menu li a {
     display: block;
-    padding-left: 2.5rem;
+    padding-left: 25px;
   }
 
   .menu li a:hover {
@@ -630,40 +626,40 @@ footer p:last-child {
 
   .fa-bars {
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 20px;
   }
 
   .social {
-    font-size: 3rem;
-    margin-top: 2.2rem;
+    font-size: 30px;
+    margin-top: 22px;
   }
 
   .reservations {
     width: 100%;
-    padding: 0 3rem;
+    padding: 0 30px;
   }
 
   /* Section Banner */
 
   .banner-container h1,
   .banner-container p {
-    font-size: 1.2rem;
+    font-size: 16px;
   }
 
   .box-one {
-    margin-right: 5rem;
+    margin-right: 50px;
   }
 
   .box-one span {
     position: absolute;
-    left: -1.5rem;
-    top: 1.5rem;
+    left: -15px;
+    top: 15px;
   }
 
   .box-two span {
     position: absolute;
-    left: -1.5rem;
-    top: 1.5rem;
+    left: -15px;
+    top: 15px;
   }
 
   /* Section About */
@@ -690,7 +686,7 @@ footer p:last-child {
   /* Section Gallery */
 
   .gallery {
-    padding: 0.5rem 0 5rem;
+    padding: 5px 0 50px;
   }
 
   .container {
@@ -703,7 +699,7 @@ footer p:last-child {
   }
 
   .carousel-indicators {
-    margin-bottom: -4rem;
+    margin-bottom: -40px;
   }
 
   .carousel-control {
@@ -723,13 +719,13 @@ footer p:last-child {
   }
 
   .find-us div {
-    margin: 2rem 0;
+    margin: 20px 0;
   }
 
   .location span:first-of-type,
   .location span:last-of-type {
     position: relative;
-    top: 1rem;
+    top: 10px;
     left: 2px;
   }
 }
@@ -745,15 +741,15 @@ footer p:last-child {
 
   /* Section Banner */
   .banner-container {
-    padding: 1rem 2rem;
+    padding: 10px 20px;
   }
 
   .banner-container h1,
   .banner-container p {
-    font-size: 1rem;
+    font-size: 10px;
   }
 
   .box-one {
-    margin-right: 2rem;
+    margin-right: 20px;
   }
 }
