@@ -14,7 +14,7 @@ window.onscroll = function () {
 };
 
 hamburger.addEventListener('click', function () {
-  nav.classList.toggle('nav-list-mob');
+  nav.classList.toggle('change');
   header.classList.toggle('header-black');
   icon.classList.toggle('fa-bars-active');
 });
