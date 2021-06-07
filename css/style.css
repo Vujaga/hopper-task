@@ -50,6 +50,9 @@ a {
 .nav-box {
   display: flex;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
 .nav-list {
@@ -137,7 +140,6 @@ a {
 .btn-reserve:hover {
   background-color: white;
   color: black;
-  /* text-decoration: none; */
 }
 
 /* ----------- */
@@ -149,7 +151,6 @@ a {
   padding: 2rem 3rem;
   display: flex;
   justify-content: center;
-  /* flex: 0 0 45%; */
 }
 
 .banner-container h1 {
@@ -247,7 +248,6 @@ a {
 .btn-about:hover {
   background-color: white;
   color: rgb(12, 94, 55);
-  /* text-decoration: none; */
 }
 
 /* ----------- */
@@ -286,11 +286,17 @@ select {
   display: block;
   text-decoration: none;
   margin-top: 2rem;
+  position: relative;
 }
 
 .btn-submit:hover {
   color: white;
   background-color: rgb(12, 94, 55);
+}
+
+.btn-submit span{
+  position: absolute;
+  right: 10px;
 }
 
 /* ----------- */
@@ -487,15 +493,30 @@ select {
 .location,
 .hours {
   margin-right: 5rem;
+  position: relative;
+}
+
+.location span:first-of-type {
+  position: absolute;
+  left: -1.5rem;
+  top: 6rem;
+}
+.location span:last-of-type {
+  position: absolute;
+  left: -1.5rem;
+  top: 14rem;
 }
 
 .find-us div {
   margin: 2rem 0;
+  position: relative;
 }
 
 .find-us .fa-facebook-f {
   color: black;
   font-size: 2rem;
+  position: absolute;
+  top: 0.3rem;
 }
 
 .find-us .fa-twitter-square {
@@ -532,7 +553,8 @@ footer p {
 footer img {
   width: 11rem;
   height: 2rem;
-  padding-top: 3px;
+  padding-top: 1px;
+  line-height: 0;
 }
 
 footer p:first-child {
@@ -547,13 +569,6 @@ footer p:last-child {
   text-decoration: underline;
 }
 
-.justify-space-around {
-  justify-content: center;
-}
-
-.justify-space-around-between {
-  justify-content: space-around;
-}
 
 /* ----------- */
 /* MEDIA QUERIES */
@@ -561,7 +576,7 @@ footer p:last-child {
 
 @media screen and (max-width: 1200px) {
   .nav-box {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -640,12 +655,6 @@ footer p:last-child {
     padding: 0 3rem;
   }
 
-  .section-location {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
   /* Section Banner */
 
   .banner-container h1,
@@ -689,8 +698,35 @@ footer p:last-child {
   .about-text-two {
     order: 1;
   }
+  /* Section Gallery */
+
+  .gallery {
+    padding: 0.5rem 0 5rem;
+}
+
+.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.col-xs-11 {
+    width: 100%;
+}
+
+.carousel-indicators {
+  margin-bottom: -4rem;
+}
+
+.carousel-control{
+  display: none;
+}
 
   /* Section Location */
+  .section-location {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
   .location,
   .hours {
@@ -700,7 +736,20 @@ footer p:last-child {
   .find-us div {
     margin: 2rem 0;
   }
+
+ .location span:first-of-type,
+ .location span:last-of-type {
+  position: relative;
+  top: 1rem;
+  left: 2px;
 }
+
+/* .location span:last-of-type{
+  position: relative;
+top: 1rem;
+  left: 3px;
+} */
+
 
 @media screen and (max-width: 480px) {
   .logo-box {
