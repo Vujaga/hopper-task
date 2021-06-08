@@ -539,7 +539,7 @@ select {
 
 footer {
   background-color: black;
-  padding: 30px 0;
+  padding: 30px 5px 10px;
 }
 
 footer p {
@@ -547,22 +547,21 @@ footer p {
 }
 
 footer img {
-  width: 11opx;
-  height: 20px;
   padding-top: 1px;
-  line-height: 0;
+  width: 110px;
+  height: 20px;
 }
 
 footer p:first-child {
   font-size: 14px;
-  text-align: center;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-footer p:last-child {
+footer p:last-of-type {
   font-size: 12px;
-  text-align: center;
   text-decoration: underline;
+  text-align: center;
 }
 
 /* ----------- */
@@ -631,7 +630,7 @@ footer p:last-child {
   }
 
   .social {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 22px;
   }
 
